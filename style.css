@@ -1,0 +1,205 @@
+:root {
+    --principal-1: #FF4700; 
+    --principal-2: #020100;
+    --principal-3: #FFFFFF;
+    --complementario-1: #9c9c9c;
+    --complementario-2:#FFA37F;;
+   
+
+    /* colores fuera de la paleta oficial */
+    --complementario-1-light: #f9dccd;
+    --complementario-1-extra-light: #f5f2f2;
+    --green-f5:#9af6c2;
+    --purple-f5: #6f42c1;
+    --purple-light-f5: #d1c4e9;
+    --blue-light-f5: #c0f6f8;
+
+
+    --grey-f5: #897d7c;
+    --grey-light-f5: #e2d2cd;
+    --bs-nav-link-hover-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* sidebar */
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: var(--principal-1);
+    overflow-y: auto;
+}
+
+.sidebar-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav {
+    /* ¿porqué da prioridad a el color de bootstrap? */
+    /* color:var(--principal-3) !important; */
+    --bs-nav-link-color-hover: var(--principal-3);
+}
+
+.nav-title {
+    color: var(--principal-3);
+}
+
+.nav-link {
+    color: var( --principal-3);
+    /* font-size: large; */
+    border-radius: 5px;
+
+}
+
+.nav-link:hover {
+    background-color: var(--principal-3);
+    color:black
+}
+
+/* main */
+
+.section-title{
+    color:var(--principal-1);
+}
+
+.section-container {
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 100%;
+}
+
+.gantt-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+#gantt-table {
+    border-collapse: collapse;
+    width: auto;
+    min-width: 100%;
+}
+
+#gantt-table th, #gantt-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 11px;
+    min-width: 30px;
+}
+
+#gantt-table th {
+    background-color: var(--complementario-1-extra-light); 
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#gantt-table td.block {
+    color: white;
+    font-weight: bold;
+}
+
+#gantt-table td.block.pildora {
+    background-color: var(--complementario-2)
+}
+
+.project {
+    background-color: var(--complementario-1-light);
+}
+
+.transicion {
+    background-color: var(--purple-light-f5);
+}
+
+.temas {
+    background-color: var(--complementario-2);
+}
+
+/* a {
+    color: #ffffff; 
+    text-decoration: none;
+}  */
+
+.certificate-course {
+    background-color: var(--blue-light-f5);
+}
+
+.badge {
+    font-weight: normal;
+    color: black;
+}
+
+#gantt-table td.block.tema {
+    background-color: var(--complementario-2);
+}
+
+#gantt-table td.tema {
+    background-color: var(--complementario-2);
+}
+
+#gantt-table td.block.transicion {
+    background-color: var(--purple-light-f5);
+}
+
+#gantt-table td.transicion {
+    background-color: var(--purple-light-f5);
+}
+
+#gantt-table td.proyecto {
+    background-color: var(--complementario-1-light);
+}
+
+#gantt-table td.block.proyecto {
+    background-color: var(--complementario-1-light);
+}
+
+#gantt-table td.empty {
+    background-color: var(--principal-3);
+}
+
+#gantt-table .label {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    position: sticky;
+    left: 0;
+    stroke: none;
+    z-index: 2;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+#generate {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.btn:hover {
+    background-color: #adcbf9;
+}
+
+.btn a{
+    color:var(--bs-primary); 
+}
+
+ .badge-soft-success {
+     background-color: rgba(25, 135, 84, 0.3);
+ }
+
+ .badge-soft-danger {
+     background-color: rgba(220, 53, 69, 0.3);
+ }
+
+ .accordion-item:first-of-type .accordion-button, .accordion-button:not(.collapsed) {
+        background-color: var(--complementario-2);
+ }
+
+
