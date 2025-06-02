@@ -1,6 +1,6 @@
 # Bootcamp 
 
-Este repositorio contiene la visión general del Bootcamp de Inteligencia Artificial de Factoría F5 Madrid (Promoción 4). 
+Este repositorio contiene la visión general del Bootcamp de Inteligencia Artificial de Factoría F5 Madrid (Promoción 5). 
 
 ## 🎯 Infografía de Competencias
 
