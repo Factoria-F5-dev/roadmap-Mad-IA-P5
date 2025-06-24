@@ -182,8 +182,8 @@ const bootcampData = {
     links:  {
         googleCalendar: "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FMadrid&src=Y18zMDQ4MjU4NDYxYWE5MTk2YzE3YjgyNDc4OTk5NDk2MzNjNzMzZDk4MzhlZjFhZTQ1YzMzZTQ5ZDRkZGU5ZGZmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4",
         zoom: "https://us02web.zoom.us/j/84219607621",
-        classroom: "https://classroom.google.com/c/NzQ1NDc4OTU1MzQ4?cjc=qhpavje",
-        discord: "https://discord.gg/u54GR4D3",
+        classroom: "https://classroom.google.com/c/NzY5OTQ3MDUxNDMx?cjc=bp4u6fog",
+        discord: "https://discord.gg/FdyRs573",
         github: "https://github.com/Factoria-F5-dev"
     },
     competencies: [
